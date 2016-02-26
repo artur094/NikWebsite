@@ -1,0 +1,161 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width:100%;
+    height: 100%;
+    margin: 0em;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.backgroud-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    display: block;
+    background-image: url('../images/sites/Sierra_HDR_Panorama_DFX8048_2280x819_Q40_wm_mini.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100%;
+    height: 100%;
+
+    filter        : blur(10px);
+    -moz-filter   : blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter     : blur(10px);
+
+    transition        : all 2s linear;
+    -moz-transition   : all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition     : all 2s linear;
+}
+
+.my-page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 0px;
+    margin: 0px;
+}
+
+.my-nav {
+    padding-left: 3%;
+    display: block;
+    width: 100%;
+    background: #414141;
+    color: #F5F5F5;
+}
+
+.nav-title{
+    display: inline-block;
+    width:7%;
+    height: 100%;
+    font-size:1.5em;
+    padding: 0px;
+    margin:0px;
+}
+
+.my-nav-bar {
+    display: inline-block;
+    font-size:1.2em;
+    height: 100%;
+    width: 90%;
+
+    padding: 0px;
+    margin:0px;
+}
+
+.my-nav-bar li
+{
+    height: 100%;
+    padding: 1.6%;
+    display: inline-block;
+}
+
+.my-nav-bar-login{
+    margin-left: 68%;
+}
+
+.my-nav-bar li:hover,
+.my-nav-left:hover,
+.my-nav-bar .current
+{
+    background: #212121;
+}
+
+
+.footer{
+    height: 5%;
+    width: 100%;
+    background: #414141;
+    color: #F5F5F5;
+}
+
+.popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    background: rgba(0,0,0,0.9);
+}
+
+.popup-content{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.popup-content td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+    display: none;
+    background: rgba(0,0,0,0.9);
+}
+
+.login form{
+    width: 40%;
+    padding: 2%;
+    margin: 0 auto;
+    background: white;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.round {
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 12px;
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 12px;
+
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 12px;
+}
